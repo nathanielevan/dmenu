@@ -8,3 +8,6 @@ Included in this build:
 - [Highlight patch](https://tools.suckless.org/dmenu/patches/highlight/)
   * Includes my own custom command line options `-nfh` and `-nbh`, see manual.
 - [Reject no match patch](https://tools.suckless.org/dmenu/patches/reject-no-match/)
+
+Dependencies:
+- Font: Iosevka Nerd Font Mono
