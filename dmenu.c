@@ -809,6 +809,10 @@ main(int argc, char *argv[])
 			colors[SchemeNorm][ColBg] = argv[++i];
 		else if (!strcmp(argv[i], "-nf"))  /* normal foreground color */
 			colors[SchemeNorm][ColFg] = argv[++i];
+		else if (!strcmp(argv[i], "-nbh"))  /* normal background highlight color */
+			colors[SchemeNormHighlight][ColBg] = argv[++i];
+		else if (!strcmp(argv[i], "-nfh"))  /* normal foreground highlight color */
+			colors[SchemeNormHighlight][ColFg] = argv[++i];
 		else if (!strcmp(argv[i], "-sb"))  /* selected background color */
 			colors[SchemeSel][ColBg] = argv[++i];
 		else if (!strcmp(argv[i], "-sf"))  /* selected foreground color */
