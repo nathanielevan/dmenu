@@ -6,7 +6,16 @@ static int centered = 0;                    /* -c option; centers dmenu on scree
 static int min_width = 500;                    /* minimum width when centered */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
+	// "FantasqueSansMono Nerd Font:pixelsize=15:antialias=true:autohint=true"
+	// "FuraMono Nerd Font:pixelsize=14:antialias=true:autohint=true"
+	// "InconsolataLGC Nerd Font:pixelsize=14:antialias=true:autohint=true"
+	// "Input Nerd Font:pixelsize=14:antialias=true:autohint=true"
 	"Iosevka Nerd Font:pixelsize=15:antialias=true:autohint=true"
+	// "JetBrainsMono Nerd Font:pixelsize=14:antialias=true:autohint=true"
+	// "MesloLGM Nerd Font:pixelsize=14:antialias=true:autohint=true"
+	// "mononoki Nerd Font:pixelsize=15:antialias=true:autohint=true"
+	// "NotoSansMono Nerd Font:pixelsize=14:antialias=true:autohint=true"
+	// "VictorMono Nerd Font:pixelsize=15:antialias=true:autohint=true"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
