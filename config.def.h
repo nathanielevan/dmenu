@@ -12,6 +12,7 @@ static const char *fonts[] = {
 	// "Input Nerd Font:pixelsize=14:antialias=true:autohint=true"
 	"Iosevka Nerd Font:pixelsize=15:antialias=true:autohint=true"
 	// "JetBrainsMono Nerd Font:pixelsize=14:antialias=true:autohint=true"
+	// "JuliaMono Nerd Font:pixelsize=14:antialias=true:autohint=true"
 	// "MesloLGM Nerd Font:pixelsize=14:antialias=true:autohint=true"
 	// "mononoki Nerd Font:pixelsize=15:antialias=true:autohint=true"
 	// "NotoSansMono Nerd Font:pixelsize=14:antialias=true:autohint=true"
