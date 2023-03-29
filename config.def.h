@@ -6,8 +6,10 @@ static int centered = 0;                    /* -c option; centers dmenu on scree
 static int min_width = 500;                    /* minimum width when centered */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
+	// "DMCAsansserif Nerd Font:pixelsize=15:antialias=true:autohint=true"
 	// "FantasqueSansMono Nerd Font:pixelsize=15:antialias=true:autohint=true"
-	// "FuraMono Nerd Font:pixelsize=14:antialias=true:autohint=true"
+	// "FiraCode Nerd Font:pixelsize=14:antialias=true:autohint=true"
+	// "Hack Nerd Font:pixelsize=13.5:antialias=true:autohint=true"
 	// "InconsolataLGC Nerd Font:pixelsize=14:antialias=true:autohint=true"
 	// "Input Nerd Font:pixelsize=14:antialias=true:autohint=true"
 	"Iosevka Nerd Font:pixelsize=15:antialias=true:autohint=true"
