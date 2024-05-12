@@ -11,7 +11,7 @@ static const char *fonts[] = {
 	// "FiraCode Nerd Font Propo:pixelsize=14:antialias=true:autohint=true"
 	// "Hack Nerd Font Propo:pixelsize=13.5:antialias=true:autohint=true"
 	// "Inconsolata LGC Nerd Font Propo:pixelsize=14:antialias=true:autohint=true"
-	"Iosevka Nerd Font Propo:pixelsize=15:antialias=true:autohint=true"
+	"IosevkaCustom Nerd Font Propo:pixelsize=15:antialias=true:autohint=true"
 	// "JetBrainsMono Nerd Font Propo:pixelsize=14:antialias=true:autohint=true"
 	// "NotoSansM Nerd Font Propo:pixelsize=14:antialias=true:autohint=true"
 };
