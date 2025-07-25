@@ -6,14 +6,13 @@ static int centered = 0;                    /* -c option; centers dmenu on scree
 static int min_width = 500;                    /* minimum width when centered */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	// "DMCASansSerif Nerd Font Propo:pixelsize=15:antialias=true:autohint=true"
-	// "FantasqueSansM Nerd Font Propo:pixelsize=15:antialias=true:autohint=true"
-	// "FiraCode Nerd Font Propo:pixelsize=14:antialias=true:autohint=true"
-	// "Hack Nerd Font Propo:pixelsize=13.5:antialias=true:autohint=true"
-	// "Inconsolata LGC Nerd Font Propo:pixelsize=14:antialias=true:autohint=true"
-	"IosevkaCustom Nerd Font Propo:pixelsize=15:antialias=true:autohint=true"
-	// "JetBrainsMono Nerd Font Propo:pixelsize=14:antialias=true:autohint=true"
-	// "NotoSansM Nerd Font Propo:pixelsize=14:antialias=true:autohint=true"
+	// "Fantasque Sans Mono:pixelsize=13.5:antialias=true:autohint=true"
+	// "Fira Mono:pixelsize=12:antialias=true:autohint=true"
+	"Hack:pixelsize=12:antialias=true:autohint=true"
+	// "Iosevka Custom:pixelsize=13.5:antialias=true:autohint=true"
+	// "JetBrains Mono NL:pixelsize=12:antialias=true:autohint=true"
+	// "Maple Mono:pixelsize=12:antialias=true:autohint=true"
+	// "Noto Sans Mono:pixelsize=12:antialias=true:autohint=true"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
@@ -25,7 +24,7 @@ static const char *colors[SchemeLast][2] = {
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;
 /* -h option; minimum height of a menu line */
-static unsigned int lineheight = 26;
+static unsigned int lineheight = 21;
 static unsigned int min_lineheight = 8;
 
 /*
